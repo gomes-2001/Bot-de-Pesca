@@ -1,0 +1,285 @@
+body {
+    background-color: #161616;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: 60px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border-bottom: 2px solid #8e00f3;
+}
+/* MENU */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1 {
+    margin-left: 10px;
+    align-self: center;
+    color: #00EEA2;
+}
+.logo img {
+    width: 60px;
+}
+nav, .menu {
+    display: flex;
+    align-items: center;
+}
+.menu li {
+    margin: 10px;
+}
+.menu li a {
+    color: #00EEA2;
+}
+.menu .btn a {
+    color: #8e00f3;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+.logo h1:hover {
+    color: #8e00f3;
+}
+.menu li a:hover {
+    padding-bottom: 20px;
+    color: #8e00f3;
+    border-bottom: 1px solid #8e00f3;
+}
+.menu .btn a:hover {
+    color: #00EEA2;
+    border-bottom: 1px solid #00EEA2;
+}
+
+/* CONTEUDO */
+.conteudo {
+    margin-top: 50px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+.sobre-bot {
+    margin-top: 50px;
+    border: 1px solid #8e00f3;
+    border-radius: 10px;
+    padding: 20px;
+}
+.sobre-bot h2 {
+    color: #00EEA2;
+    text-align: center;
+}
+.sobre-bot p {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #fff;
+}
+
+.sobre-reducao h2{
+    text-align: center;
+    color: #00EEA2;
+
+}
+.sobre-reducao p {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+.sobre-reducao .citacao-bot {
+    color: #8e00f3;
+    font-size: 25px;
+}
+
+.vantagem-bot {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vantagem-bot .bloco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 280px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #8e00f3;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #00EEA2;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    position: relative;
+}
+.vantagem-bot .bloco a {
+    position: absolute;
+    bottom: 20px;
+    transition: ease-in-out 0.3s;
+}
+.bloco-2 {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    border: 1px solid #00EEA2;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+.bloco-2 span {
+    border-bottom: 1px solid #8e00f3;
+}
+.vantagem-bot .bloco a:hover {
+    color: #00EEA2;
+}
+.vantagem-bot .bloco:hover {
+    color: #fff;
+}
+
+/* TUTORIAL */
+
+.tutorial {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #8e00f3;
+    color: #fff;
+}
+.config {
+    font-family: 'Bebas Neue', cursive;
+}
+.config h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+.config img{
+    width: 100%;    
+}
+
+.config ul li,
+.config p {
+    font-size: 20px;
+    text-align: center;
+}
+.config ul li {
+    margin-top: 10px;
+}
+.config li span, 
+.config p span  {
+    color: #00EEA2;
+}
+
+.config-2 {
+    border-top: 1px solid #8e00f3;
+    margin-top: 20px;
+    border-bottom: 1px solid #8e00f3;
+}
+.config-2 img {
+    width: auto;
+}
+.config-2 p {
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 30px;
+}
+.config-2 p span {
+    color: #00EEA2;
+}
+.config .chat {
+    font-size: 30px;
+    color: #8e00f3;
+}
+
+/* PASSO a PASSO*/
+
+.passo1, .passo2,
+.passo3, .passo4,
+.passo5, .passo6,
+.passo7, .passo8 {
+    border-bottom: 1px solid #8e00f3;
+    font-family: 'Bebas Neue', cursive;
+}
+.passo1 img, .passo2 img,
+.passo3 img, .passo4 img,
+.passo5 img, .passo6 img,
+.passo7 img, .passo8 img,
+.passo9 img {
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+}
+
+.passo1 h2, .passo2 h2,
+.passo3 h2, .passo4 h2,
+.passo5 h2, .passo6 h2,
+.passo7 h2, .passo8 h2,
+.passo9 h2 {
+    font-size: 30px;
+}
+
+.passo1 p, .passo2 p,
+.passo3 p, .passo4 p,
+.passo5 p, .passo6 p,
+.passo7 p, .passo8 p,
+.passo9 p {
+    font-size: 20px;
+}
+
+.passo1 img{
+    height: 500px;
+}
+.passo2 img {
+    height: 400px;
+}
+.passo3 img{
+    width: 100%;
+}
+.passo9 .img-9 img{
+    margin-right: 30px;
+}
+.passo9 p .laranja {
+    color: #d45500;
+}
+.passo9 p .ativacao{
+    color: #8e00f3;
+}
+.tutorial .erro {
+    font-size: 40px;
+}
+.tutorial .erro .erro-contato {
+    color: #00EEA2;
+    transition: ease-in-out 0.3s;
+}
+
+.tutorial .erro .erro-contato:hover {
+    color: #00d2ee;
+}
+
+/* DOWNLOAD */
+
+
+/* FOOTER */
+
+.criadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    color: #161616;
+    background-color: #3f3f3f;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+.criadores span {
+    color: #00EEA2;
+}
